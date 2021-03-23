@@ -1,12 +1,12 @@
 export class AppStorage {
   constructor(name) {
     if (!name) {
-      console.error('"name" field is required.');
+      console.error(`${name} field is required.`);
     }
 
     this.name = name;
 
-    if (!this.state) this.state = {};
+    if (!this.state) this.state = '';
   }
 
   get state() {

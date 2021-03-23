@@ -10,10 +10,10 @@
 // });
 // ul.appendChild(fragment);
 // document.body.appendChild(ul)
-import {Head,Form} from './AppComponents.js'
+import {displayAppName,Form} from './AppComponents.js'
 import { AppStorage } from "./AppStorage.js";
 
-const appComponents = [Head.displayAppName(),Form.createForm()]
+const appComponents = [displayAppName(),Form.createForm()]
 const fragment = document.createDocumentFragment();
 appComponents.forEach(com=>{
     fragment.appendChild(com)
