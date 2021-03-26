@@ -17,33 +17,35 @@ html {
   text-align: center;
   color: white;
 }
-#form-section {
+
+.form-section {
   display: grid;
   justify-content: center;
   align-items: center;
   margin-top: 25px;
 }
 
-
-#form-title {
+.form-title {
   border: 2px solid #00ff99;
   background: rgba(255, 255, 255, 0.7);
   margin-bottom: 25px;
 }
-#form-title:focus {
+
+.form-title:focus {
   background: white;
 }
 
-#form-content {
+.form-content {
   resize: none;
   border: 2px solid #00ff99;
   background: rgba(255, 255, 255, 0.7);
   margin-bottom: 25px;
 }
-#form-content:focus {
+.form-content:focus {
   background: white;
 }
-#checkbox-area {
+
+.checkbox-area {
   margin: 0 43%;
   background: #00ff99;
   border-radius: 4px;
@@ -52,10 +54,12 @@ html {
   transition: 0.5s ease-in-out;
   margin-bottom: 25px;
 }
-#checkbox-area:hover {
+
+.checkbox-area:hover {
   transform: scale(1.1);
 }
-#submit-btn {
+
+.submit-btn {
   margin: 0 30%;
   background: #00ff99;
   border: none;
@@ -64,7 +68,8 @@ html {
   transition: 0.5s ease-in-out;
   margin-bottom: 25px;
 }
-#submit-btn:hover {
+
+.submit-btn:hover {
   transform: scale(1.1);
 }
 
@@ -151,7 +156,7 @@ html {
 }
 
 .delete-btn {
-  color:black;
+  color: black;
   padding: 5px 8px;
   background-color: red;
   border: none;
@@ -196,8 +201,11 @@ html {
 }
 
 @media (max-width: 480px) {
-  #checkbox-area {
+  .checkbox-area {
     margin: 0 25%;
+  }
+  .submit-btn {
+    margin-top: 8px;
   }
   #articles-list {
     margin: 0;
